@@ -8,7 +8,7 @@ Quick Examples
 
 jetty使用
 ---
-启动jetty是使用，[详细的实例](http://github.com)
+启动jetty是使用，[详细的实例](https://github.com/maczam/jetty-session-redis/blob/master/src/test/java/info/hexin/Demo.java)
 ```java
    RedisSessionIdManager sessionIdManager = new RedisSessionIdManager(server, jedisPool);
    RedisSessionManager redisSessionManager = new RedisSessionManager(sessionIdManager);
